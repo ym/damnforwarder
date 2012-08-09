@@ -1,5 +1,5 @@
 <?php
-	$hostname = strtolower($_SERVER['SERVER_ADDR']);
+	$hostname = strtolower($_SERVER['HTTP_HOST']);
 
 	$cache_key = 'damnfowarder_txt_' . MD5($hostname);
 
