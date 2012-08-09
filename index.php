@@ -45,7 +45,7 @@
 
 <h2>Usage</h2>
 <pre>
-yourdomain.com&#09;IN&#09;A&#09;205.134.228.144
+yourdomain.com&#09;IN&#09;A&#09;<?php echo $_SERVER['SERVER_ADDR']; ?>
 yourdomain.com&#09;IN&#09;TXT&#09;"damnforwarder http(s)://url.to/redirect [options]"
 </pre>
 
